@@ -1,2 +1,2 @@
-# DrumPad-iPhone-test-
-Same DrumPad. No animations
+# spamhws.github.io
+Drumpad project 

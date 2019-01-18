@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="google" content="notranslate">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="drumpad.css">
+    <link rel="shortcut icon" href="https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/46/a6/3e/46a63e3c-2622-2932-ec9e-c4457417349e/source/512x512bb.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <title>Drum Pad</title>
+  </head>
+  <body>
+    <div class="sidenav container">
+      <div id="buttonContainer">
+        <button id="btnt" type="button" class="btn btn-primary">3x3</button>
+        <button id="btnf" type="button" class="btn btn-primary">4x4</button>
+      </div>
+    </div>
+
+    <table class='ok three' align="center">
+      <tbody>
+        <tr>
+          <td id="three1">1</td>
+          <td id="three2">2</td>
+          <td id="three3">3</td>
+        </tr>
+        <tr>
+          <td id="three4">4</td>
+          <td id="three5">5</td>
+          <td id="three6">6</td>
+        </tr>
+        <tr>
+          <td id="three7">7</td>
+          <td id="three8">8</td>
+          <td id="three9">9</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class='ok four' align="center">
+      <tbody>
+        <tr>
+          <td id="four1">1</td>
+          <td id="four2">2</td>
+          <td id="four3">3</td>
+          <td id="four4">4</td>
+        </tr>
+        <tr>
+          <td id="four5">5</td>
+          <td id="four6">6</td>
+          <td id="four7">7</td>
+          <td id="four8">8</td>
+        </tr>
+        <tr>
+          <td id="four9">9</td>
+          <td id="four10">10</td>
+          <td id="four11">11</td>
+          <td id="four12">12</td>
+        </tr>
+        <tr>
+          <td id="four13">13</td>
+          <td id="four14">14</td>
+          <td id="four15">15</td>
+          <td id="four16">16</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="overlay" onclick="off()">
+      <div class="orientationSign">
+        <img id="rotateImg"src="Sources/rotate.gif" alt="">
+        <p id="rotateText">Please use landscape mode for a better experience</p>
+      </div>
+    </div>
+
+    <img id="fullscreenBtn" src="Sources/fullscreen.png" alt="">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="drumpad.js"></script>
+  </body>
+</html>
